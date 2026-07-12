@@ -134,27 +134,26 @@ The cloud implementation enables a more scalable workflow by separating data sto
 The project follows a modular machine learning pipeline structure:
 
 cloud-ml-pipeline/
-
-├── data/
-│ ├── raw/
-│ ├── preprocessed/
-│ └── processed/
-
-├── models/
-
-├── notebooks/
-
-├── src/
-│ ├── ingest.py
-│ ├── preprocess.py
-│ ├── features.py
-│ ├── train.py
-│ ├── evaluate.py
-│ ├── infer.py
-│ └── run_pipeline.py
-
-├── requirements.txt
-└── README.md
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ models/
+|
+├─ data/
+│  ├─ raw/
+│  └─ preprocessed/
+│  └─ processed/
+|
+├─ notebooks/
+|
+├─ src/
+│  ├─ ingest.py
+│  ├─ preprocess.py
+│  ├─ features.py
+│  ├─ train.py
+│  ├─ evaluate.py
+│  ├─ infer.py
+│  └─ run_pipeline.py
 
 
 The source code is organized into independent modules for:
