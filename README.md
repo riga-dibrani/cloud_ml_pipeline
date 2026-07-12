@@ -133,19 +133,17 @@ The cloud implementation enables a more scalable workflow by separating data sto
 ## Repository Structure
 The project follows a modular machine learning pipeline structure:
 
+```
 cloud-ml-pipeline/
 ├─ README.md
 ├─ requirements.txt
 ├─ .gitignore
 ├─ models/
-|
+├─ notebooks/
 ├─ data/
 │  ├─ raw/
 │  └─ preprocessed/
 │  └─ processed/
-|
-├─ notebooks/
-|
 ├─ src/
 │  ├─ ingest.py
 │  ├─ preprocess.py
@@ -154,7 +152,7 @@ cloud-ml-pipeline/
 │  ├─ evaluate.py
 │  ├─ infer.py
 │  └─ run_pipeline.py
-
+```
 
 The source code is organized into independent modules for:
 - data ingestion
